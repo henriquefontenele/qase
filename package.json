@@ -3,8 +3,7 @@
   "private": true,
   "scripts": {
     "open": "cypress open",
-    "test": "powershell -Command \"$env:QASE_MODE='testops'; npx cypress run\"",
-    "cypress:run": "cypress run"
+    "test": "export QASE_MODE=testops; npx cypress run"
   },
   "type": "module",
   "devDependencies": {
