@@ -6,6 +6,7 @@ Segue um passo-a-passo de como configurar o Github para integrar com a ferrament
 
 ### Configuração na QASE
 1 - Crie um projeto na ferramenta QASE.
+
 2 - Pegue o ID do projeto que você criou. No meu caso ficou "GAC" (Ex.: https://app.qase.io/project/GAC)
 3 - Crie um token na QASE. (Crie aqui: https://app.qase.io/user/api/token)
 4 - Instale o Github App na QASE. (https://app.qase.io/apps)
