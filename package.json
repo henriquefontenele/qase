@@ -1,0 +1,19 @@
+{
+  "name": "examples-cypress",
+  "private": true,
+  "scripts": {
+    "open": "cypress open",
+    "test": "powershell -Command \"$env:QASE_MODE='testops'; npx cypress run\"",
+    "cypress:run": "cypress run"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cypress": "^13.15.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mailhog": "^2.4.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-qase-reporter": "^2.0.0",
+    "eslint-plugin-cypress": "^2.15.2"
+  }
+}
