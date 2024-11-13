@@ -12,9 +12,9 @@ export default cypress.defineConfig({
       debug: true,
       testops: {
         api: {
-          token: 'c8da1c5772ad85161bca413664c485d65cc9664d5ce24b9a38aa3e7087e2c5bb', // replace with your Cypress app token
+          token: '7738539c5206d6690ea2254ac563b2fb01afbb532f92087d0f4a92abac8a58ad', // replace with your Cypress app token
         },
-        project: 'PHT',  // replace with your project code
+        project: 'GAC',  // replace with your project code
         uploadAttachments: true,
         run: {
           complete: true,
