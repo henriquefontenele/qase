@@ -30,7 +30,7 @@ Segue um passo-a-passo de como configurar o Github para integrar com a ferrament
 3 - Crie um Github Actions e cole o código abaixo:
 
 >name: Github for Qase
->
+
 on:
 
   workflow_dispatch:
