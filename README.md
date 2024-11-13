@@ -18,7 +18,8 @@ Segue um passo-a-passo de como configurar o Github para integrar com a ferrament
 
 ### Configuração no Github
 1 - Crie um repositório no Github.
-2 - Adicione o token criado na QASE, nas configurações do repositório do Github a ser usado, navegando em Settings / Secrets and variables / Actions / New Repository Secret, com o nome de "QASE_API_TOKEN". (https://github.com/"nomeDaSuaConta"/"nomeDoSeuRepositorio"/settings/secrets/actions)
+2 - Adicione o token criado na QASE, nas configurações do repositório do Github a ser usado, navegando em Settings / Secrets and variables / Actions / New Repository Secret, com 
+o nome de "QASE_API_TOKEN". (https://github.com/"nomeDaSuaConta"/"nomeDoSeuRepositorio"/settings/secrets/actions)
 3 - Crie um Github Actions e cole o código abaixo:
 >name: Github for Qase
 on:
